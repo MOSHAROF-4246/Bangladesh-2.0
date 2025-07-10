@@ -638,9 +638,9 @@ nav a {
 
 @media screen and (max-width: 760px) {
     .money-select button {
-        width: 180px;
+        width: 120px;
         height: 100px;
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .money-select-wrapper {
@@ -649,7 +649,7 @@ nav a {
     }
 
     .donate input {
-        max-width: 400px;
+        max-width: 350px;
     }
 }
 
@@ -691,7 +691,7 @@ nav a {
 
 @media screen and (max-width: 760px) {
     .sub-btn-gp input {
-        max-width: 400px;
+        max-width: 350px;
     }
 }
 
@@ -738,6 +738,12 @@ hr {
     height: 1px;
     background-color: var(--text-color-mute);
     border: none;
+}
+
+@media screen and (max-width: 760px) {
+    hr {
+        min-width: 400px;
+    }
 }
 
 .foot-content {
