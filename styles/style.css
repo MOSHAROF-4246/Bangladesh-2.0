@@ -693,6 +693,27 @@ nav a {
     .sub-btn-gp input {
         max-width: 350px;
     }
+
+    .sub-btn-gp {
+        flex-direction: column;
+    }
+
+    .sub-btn-gp input {
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    .sub-btn-gp button {
+        border-radius: 50px !important;
+        -webkit-border-radius: 50px !important;
+        -moz-border-radius: 50px !important;
+        -ms-border-radius: 50px !important;
+        -o-border-radius: 50px !important;
+        margin-top: 20px;
+    }
 }
 
 .sub-btn-gp button {
